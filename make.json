@@ -1,0 +1,7 @@
+{
+  "assets": [],
+  "pages": [
+    { "wrapper": "src/index.html", "title": "Home" },
+    { "wrapper": "src/projects.html", "title": "Projects" }
+  ]
+}

@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fira-sans/FiraSans-Regular.woff2") format("woff2"),
+    url("fira-sans/FiraSans-Regular.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fira-sans/FiraSans-Italic.woff2") format("woff2"),
+    url("fira-sans/FiraSans-Italic.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 250;
+  src: url("fira-sans/FiraSans-Thin.woff2") format("woff2"),
+    url("fira-sans/FiraSans-Thin.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 250;
+  src: url("fira-sans/FiraSans-ThinItalic.woff2") format("woff2"),
+    url("fira-sans/FiraSans-ThinItalic.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 275;
+  src: url("fira-sans/FiraSans-ExtraLight.woff2") format("woff2"),
+    url("fira-sans/FiraSans-ExtraLight.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 275;
+  src: url("fira-sans/FiraSans-ExtraLightItalic.woff2") format("woff2"),
+    url("fira-sans/FiraSans-ExtraLightItalic.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("fira-sans/FiraSans-Light.woff2") format("woff2"),
+    url("fira-sans/FiraSans-Light.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 300;
+  src: url("fira-sans/FiraSans-LightItalic.woff2") format("woff2"),
+    url("fira-sans/FiraSans-LightItalic.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("fira-sans/FiraSans-Medium.woff2") format("woff2"),
+    url("fira-sans/FiraSans-Medium.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 500;
+  src: url("fira-sans/FiraSans-MediumItalic.woff2") format("woff2"),
+    url("fira-sans/FiraSans-MediumItalic.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("fira-sans/FiraSans-SemiBold.woff2") format("woff2"),
+    url("fira-sans/FiraSans-SemiBold.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 600;
+  src: url("fira-sans/FiraSans-SemiBoldItalic.woff2") format("woff2"),
+    url("fira-sans/FiraSans-SemiBoldItalic.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fira-sans/FiraSans-Bold.woff2") format("woff2"),
+    url("fira-sans/FiraSans-Bold.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fira-sans/FiraSans-BoldItalic.woff2") format("woff2"),
+    url("fira-sans/FiraSans-BoldItalic.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("fira-sans/FiraSans-ExtraBold.woff2") format("woff2"),
+    url("fira-sans/FiraSans-ExtraBold.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 800;
+  src: url("fira-sans/FiraSans-ExtraBoldItalic.woff2") format("woff2"),
+    url("fira-sans/FiraSans-ExtraBoldItalic.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 900;
+  src: url("fira-sans/FiraSans-Black.woff2") format("woff2"),
+    url("fira-sans/FiraSans-Black.woff") format("woff");
+  ascent-override: 100%;
+}
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 900;
+  src: url("fira-sans/FiraSans-BlackItalic.woff2") format("woff2"),
+    url("fira-sans/FiraSans-BlackItalic.woff") format("woff");
+  ascent-override: 100%;
+}

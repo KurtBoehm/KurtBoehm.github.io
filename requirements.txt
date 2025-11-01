@@ -1,0 +1,8 @@
+beautifulsoup4
+colorama
+lxml
+markdown-it-py
+mdit-py-plugins
+pydantic
+svg.py
+svg-path-editor

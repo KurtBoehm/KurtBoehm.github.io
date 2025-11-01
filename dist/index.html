@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kurt Böhm: Home</title>
+    <link href="kurbo.css" rel="stylesheet" />
+    <script src="kurbo.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar is-fixed-top has-shadow"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <img src="sun.svg" alt="A Sun" height="100" width="100" />
+          <strong>Kurt Böhm</strong>
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          data-target="navbar-menu"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar-menu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="/"><strong>Home</strong></a>
+          <a class="navbar-item" href="projects.html">Projects</a>
+        </div>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="container container-body">
+        <article class="message quote">
+          <div class="message-body">
+            <div class="columns">
+              <div class="column quote-img">
+                <figure class="image is-128x128">
+                  <img
+                    src="cheshire.svg"
+                    alt="A Cheshire Cat"
+                    height="128"
+                    width="128"
+                  />
+                </figure>
+              </div>
+              <div class="column quote-txt" style="max-width: 30rem">
+                “We’re all mad here. I’m mad. You’re mad.”<br />
+                “How do you know I’m mad?” said Alice.<br />
+                “You must be,” said the Cat, “or you wouldn’t have come here.”<br />
+                <div style="text-align: right">
+                  <em>— Lewis Carroll, Alice in Wonderland</em>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div class="block content">
+          <figure class="image portrait">
+            <img alt="My Portrait" src="portrait.webp" />
+          </figure>
+          <p>Well met, traveller!
+          I’m <strong>Kurt Böhm</strong>, a PhD student and research assistant at TU Clausthal’s Institute of Mathematics in the <em>Scientific Computing</em> research group led by Olaf Ippisch with a Master’s degree in Computer Science.</p>
+          <p>I’m a programmer, computer scientist and tinkerer at heart with a wide range of interests, including high-performance computing, computer graphics (especially image processing), and mathematical optimization.
+          Some projects I have worked on are listed under <a href="projects.html">Projects</a> and available <a href="https://github.com/KurtBoehm">on GitHub</a>, and I plan on making some additional projects public in the near future.</p>
+          <p>My research focuses on <a href="https://github.com/KurtBoehm/lineal"><span class="is-smallcaps">Lineal</span></a>, an efficient parallel linear algebra library written in modern C++, and C++ libraries connected to it (such as <a href="https://github.com/KurtBoehm/thesauros"><span class="is-smallcaps">Θησαυρός</span></a> and <a href="https://github.com/KurtBoehm/grex"><span class="is-smallcaps">Grex</span></a>).
+          A preprint of our first article on <span class="is-smallcaps">Lineal</span> is available <a href="https://dx.doi.org/10.21203/rs.3.rs-6329564/v1">on Research Square</a>.
+          Like my other publicly available projects, <span class="is-smallcaps">Lineal</span> and the libraries connected to it are available <a href="https://github.com/KurtBoehm">on GitHub</a>.</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          © 2025 Kurt Böhm. For more information my homepage, take a look at the
+          <a href="https://github.com/KurtBoehm/KurtBoehm.github.io"
+            >GitHub repository</a
+          >.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

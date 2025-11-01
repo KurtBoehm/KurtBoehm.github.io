@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kurt Böhm: {{title}}</title>
+    <link href="kurbo.css" rel="stylesheet" />
+    <script src="kurbo.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar is-fixed-top has-shadow"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <img src="sun.svg" alt="A Sun" height="100" width="100" />
+          <strong>Kurt Böhm</strong>
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          data-target="navbar-menu"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar-menu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="/">Home</a>
+          <a class="navbar-item" href="projects.html">Projects</a>
+        </div>
+      </div>
+    </nav>
+    {{content}}
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          © 2025 Kurt Böhm. For more information my homepage, take a look at the
+          <a href="https://github.com/KurtBoehm/KurtBoehm.github.io"
+            >GitHub repository</a
+          >.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css");
+@import url("https://cdn.jsdelivr.net/npm/open-color@1.9.1/open-color.min.css");
+@import url("fira-sans.css");
+:root {
+  --bulma-body-family: "Fira Sans", sans-serif;
+  -webkit-text-size-adjust: none;
+}
+.container-body {
+  max-width: 800px !important;
+}
+.container-body.card-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--bulma-block-spacing);
+  max-width: 1344px !important;
+  justify-content: center;
+}
+.footer {
+  --bulma-footer-padding: var(--bulma-block-spacing);
+}
+.is-smallcaps {
+  font-variant: small-caps;
+}
+.navbar-item img,
+.navbar-item svg {
+  max-width: var(--bulma-navbar-item-img-max-height);
+}
+.message {
+  --bulma-message-body-padding: 1.25em;
+}
+.message.project {
+  max-width: 400px;
+  margin-bottom: unset;
+}
+.message.project > .message-header {
+  font-variant: small-caps;
+  color: var(--bulma-light);
+}
+.message.project > .message-body {
+  color: var(--bulma-text);
+}
+.message.quote {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+.message-body {
+  font-size: var(--bulma-size-normal);
+}
+.message-body > .buttons {
+  margin-top: 0.5em;
+}
+.portrait > img {
+  border-radius: 1rem;
+}
+.section {
+  --bulma-section-padding-desktop: var(--bulma-block-spacing);
+  --bulma-section-padding: var(--bulma-block-spacing);
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bulma-link-text: var(--oc-blue-8);
+    --bulma-link: var(--oc-blue-8);
+    --bulma-burger-h: 209deg;
+    --bulma-burger-s: 77%;
+    --bulma-burger-l: 43%;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bulma-link-text: var(--oc-blue-4);
+    --bulma-link: var(--oc-blue-4);
+    --bulma-burger-h: 207deg;
+    --bulma-burger-s: 91%;
+    --bulma-burger-l: 64%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .quote-img > figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portrait {
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1.5rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .quote-img {
+    flex-grow: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .quote-txt {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .portrait {
+    width: 30%;
+    float: inline-end;
+    padding-inline-start: 1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    box-shadow: none;
+  }
+}
