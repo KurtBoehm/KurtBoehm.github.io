@@ -48,7 +48,9 @@ class ImageData:
         *,
         resample: Resampling | None = None,
     ) -> "ImageData":
-        return ImageData.from_pillow(self.pillow.resize((w, h), resample=resample))
+        return ImageData.from_pillow(
+            self.pillow.resize((w, h), resample=resample or Resampling.BOX)
+        )
 
     def write_to_file(self, path: Path) -> None:
         self.pillow.save(path)

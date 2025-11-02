@@ -13,7 +13,9 @@ def write_rasterized(dst_path: Path, src_path: Path, size: int):
 def generate_favicons(dist: Path):
     svg_path = dist / "sun.svg"
 
-    images = [ImageData.from_svg(svg_path, size) for size in ico_sizes]
+    images = [
+        ImageData.from_svg(svg_path, 4 * size).resize(size, size) for size in ico_sizes
+    ]
     with open(dist / "favicon.ico", "wb") as f:
         f.write(images_to_ico(images))
 
