@@ -13,7 +13,7 @@ from typing import Callable, Final
 from markdown_it import MarkdownIt
 from pydantic import BaseModel
 
-from generate import generate_svg
+from generate import generate_favicons, generate_svg
 from mdit_plugins.maths import dollarmath_plugin
 
 
@@ -108,6 +108,8 @@ for asset in make_info.assets:
     copy(asset, dist / asset.name)
 
 generate_svg(dist)
+
+generate_favicons(dist)
 
 for page in make_info.pages:
     print(page)
