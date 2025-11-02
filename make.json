@@ -1,5 +1,12 @@
 {
-  "assets": [],
+  "assets": [
+    { "src": "fonts/fira-sans" },
+    { "src": "fonts/fira-sans.css" },
+    { "src": "pics/portrait.webp" },
+    { "src": "src/kurbo.css" },
+    { "src": "src/kurbo.js" },
+    { "src": "src/site.webmanifest" }
+  ],
   "pages": [
     { "wrapper": "src/index.html", "title": "Home" },
     { "wrapper": "src/projects.html", "title": "Projects" }

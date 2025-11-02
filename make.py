@@ -7,7 +7,7 @@
 import re
 from functools import partial
 from pathlib import Path
-from shutil import copy
+from shutil import copy, copytree
 from typing import Callable, Final
 
 from markdown_it import MarkdownIt
@@ -23,8 +23,13 @@ class PageInfo(BaseModel):
     title: str
 
 
+class Asset(BaseModel):
+    src: Path
+    dst: Path | None = None
+
+
 class MakeInfo(BaseModel):
-    assets: list[Path]
+    assets: list[Asset]
     pages: list[PageInfo]
 
 
@@ -105,7 +110,11 @@ with open("make.json", "r") as f:
     make_info: Final = MakeInfo.model_validate_json(f.read())
 
 for asset in make_info.assets:
-    copy(asset, dist / asset.name)
+    src, dst = asset.src, asset.dst or dist / asset.src.name
+    if src.is_dir():
+        copytree(src, dst)
+    else:
+        copy(src, dst)
 
 generate_svg(dist)
 
